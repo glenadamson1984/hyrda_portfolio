@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hydra_portfolio",
+    "name": "Hydra Portfolio",
     "slug": "hydra_portfolio",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "hydraportfolio"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55cb1010-925d-4702-9180-e44669e4f596"
+      }
     }
   }
 }
